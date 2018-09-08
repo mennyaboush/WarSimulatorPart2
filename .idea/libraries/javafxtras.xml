@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="javafxtras">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-agenda/src/main/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-agenda/src/test/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-common/src/main/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-common/src/test/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-controls/src/main/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-controls/src/test/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-font-roboto/src/main/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-font-roboto/src/test/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-fxml/src/main/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-gauge-linear/src/main/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-gauge-linear/src/test/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-icalendaragenda/src/main/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-icalendaragenda/src/test/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-icalendarfx/src/main/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-icalendarfx/src/test/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-menu/src/main/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-menu/src/test/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-test-support/src/main/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-window/src/main/java" />
+      <root url="file://C:/JLibs/jfxtras-9.0/jfxtras-window/src/test/java" />
+    </SOURCES>
+  </library>
+</component>
