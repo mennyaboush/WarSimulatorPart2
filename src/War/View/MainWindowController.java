@@ -7,6 +7,7 @@ import War.Entities.*;
 import War.View.EntitiesViews.*;
 import War.View.subscribers.FXViewSubscriber;
 import War.WarObserver.WarObserver;
+import War.clientServer.Client;
 import javafx.animation.KeyFrame;
 import javafx.animation.PathTransition;
 import javafx.animation.Timeline;
@@ -35,7 +36,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Executors;
 
 public class MainWindowController extends BorderPane implements ViewFacade, Initializable{
-    private WarControllerFacade controller = WarController.getInstance();
+    private WarControllerFacade controller = WarController.getInstance();//Client.getInstance();
 
     @FXML
     private BorderPane container;
@@ -51,7 +52,6 @@ public class MainWindowController extends BorderPane implements ViewFacade, Init
     private VBox targetsBox;
 
     private ToggleGroup targetsGroup = new ToggleGroup();
-
 
     private ObservableList<Node> missilesOnAir = FXCollections.observableArrayList();
 

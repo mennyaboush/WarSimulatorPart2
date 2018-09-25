@@ -1,1 +1,4 @@
-30/08/2018 16:28:32 [INFO]: MissileDestructor   [D202] CREATED
+15/09/2018 18:39:25 [INFO]: MissileDestructor   [D202] CREATED
+15/09/2018 18:39:31 [INFO]: MissileDestructor   [D202] Try to destruct missile: M2 at: 5
+15/09/2018 18:39:31 [INFO]: MissileDestructor   [D202] Destruction of missile M2: Missed!
+15/09/2018 18:40:09 [INFO]: MissileDestructor   [D202] CREATED

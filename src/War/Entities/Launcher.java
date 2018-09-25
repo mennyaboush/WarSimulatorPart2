@@ -1,11 +1,16 @@
 package War.Entities;
 
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class Launcher extends Destructible {
-    private static int idGenerator = 101;
+public class Launcher extends Destructible implements Serializable{
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private static int idGenerator = 101;
     private boolean isHidden;
     private AtomicBoolean currentlyLaunching = new AtomicBoolean();
 

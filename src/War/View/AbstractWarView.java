@@ -16,7 +16,6 @@ public abstract class AbstractWarView implements ViewFacade{
             "Add Launcher Destructor",
             "Add Missile Destructor",
             "Launch Missile",
-            "Destruct a Launcher Destructor(???)",
             "Destruct Missile",
             "Destruct Launcher",
             "Show Statistics",
@@ -54,9 +53,6 @@ public abstract class AbstractWarView implements ViewFacade{
                 break;
             case LAUNCH_MISSILE:
                 launchMissile();
-                break;
-            case DESTRUCT_LAUNCHER_DESTRUCTOR:
-                //Canceled
                 break;
             case DESTRUCT_MISSILE:
                 destructMissile();

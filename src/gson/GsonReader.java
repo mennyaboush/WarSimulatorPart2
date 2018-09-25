@@ -10,7 +10,7 @@ import java.io.FileReader;
 public class GsonReader implements JsonReaderFacade {
     @Override
     public War readJson() {
-        File file = new File("D:\\eclips\\RoieProject\\WarNoaAndRoie With GSON\\src\\gson\\properties.json");
+        File file = new File("D:\\properties.json");
         try {
             FileReader fr = new FileReader(file);
             Gson gson = new Gson();

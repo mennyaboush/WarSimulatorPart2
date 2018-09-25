@@ -1,7 +1,13 @@
 package War.Entities;
 
-public class LauncherDestructor extends Destructor<Launcher> {
-    public enum DestructorType {PLANE, SHIP}
+import java.io.Serializable;
+
+public class LauncherDestructor extends Destructor<Launcher> implements Serializable{
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	public enum DestructorType {PLANE, SHIP}
     private static int idGenerator = 10;
 
     private DestructorType type;
